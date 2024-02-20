@@ -29,13 +29,13 @@ generateJoke();
 
 jokeBtn.addEventListener("click", () => generateJoke());
 
-document.getElementById('like-button').addEventListener('click', function() {
+document.getElementById('likeBtn').addEventListener('click', function() {
     var likeCount = parseInt(likeCountElement.textContent);
     likeCount++;
     likeCountElement.textContent = likeCount + ' like';
 });
 
-document.getElementById('dislike-button').addEventListener('click', function() {
+document.getElementById('dislikeBtn').addEventListener('click', function() {
     var dislikeCount = parseInt(dislikeCountElement.textContent);
     dislikeCount++;
     dislikeCountElement.textContent = dislikeCount + ' dislike';
